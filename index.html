@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наш ресторан</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  
+  <header class="relative bg-[url('img/heroimage.png')] bg-cover bg-center text-white">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <nav class="relative z-10 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center p-6 gap-4">
+      <img src="img/LOGO.png" alt="Logo" class="w-40">
+      <ul class="flex flex-wrap justify-center gap-4 text-sm md:text-base">
+        <li class="hover:text-yellow-400 cursor-pointer">ГЛАВНАЯ</li>
+        <li class="hover:text-yellow-400 cursor-pointer">МЕНЮ</li>
+        <li class="hover:text-yellow-400 cursor-pointer">О НАС</li>
+        <li class="hover:text-yellow-400 cursor-pointer">БРОНЬ</li>
+      </ul>
+      <button class="bg-yellow-500 hover:bg-yellow-600 px-6 py-2 rounded-lg transition">ЗАКАЗ СТОЛИКА</button>
+    </nav>
+
+    <div class="relative z-10 text-center flex flex-col items-center py-24 px-4">
+      <p class="text-3xl md:text-5xl text-yellow-400">Добро пожаловать в</p>
+      <h1 class="text-5xl md:text-7xl font-bold text-yellow-500">Наш ресторан</h1>
+      <p class="mt-3 text-lg">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+      <button class="mt-6 bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-lg text-white transition">VIEW MENU</button>
+    </div>
+  </header>
+
+  
+  <section class="max-w-[1200px] mx-auto py-16 px-6 grid gap-8 md:grid-cols-3 text-center">
+    <div class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center gap-4">
+      <img src="img/Mask Group (2).png" alt="" class="w-24">
+      <h3 class="text-xl font-semibold">Магическая Атмосфера</h3>
+      <p>В нашем заведении царит магическая атмосфера, наполненная вкусными ароматами.</p>
+    </div>
+    <div class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center gap-4">
+      <img src="img/Mask Group (2).png" alt="" class="w-24">
+      <h3 class="text-xl font-semibold">Лучшее качество Еды</h3>
+      <p>Качество нашей еды — отменное!</p>
+    </div>
+    <div class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center gap-4">
+      <img src="img/Mask Group (2).png" alt="" class="w-24">
+      <h3 class="text-xl font-semibold">Недорогая Еда</h3>
+      <p>Стоимость зависит только от количества. Качество всегда на высоте!</p>
+    </div>
+  </section>
+
+ 
+  <section class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-10 px-6 py-20">
+    <div class="flex-1 flex flex-col gap-6">
+      <h2 class="text-4xl md:text-6xl text-yellow-500 font-semibold">Наша История</h2>
+      <p>Как и у любого другого самобытного места, у нас есть своя особая история. Идея ресторана пришла неожиданно — во время прогулки по лесу основатель оказался вдали от цивилизации и сам готовил себе еду. Так родилась идея нашего ресторана.</p>
+      <div class="flex flex-wrap gap-8 mt-4 text-3xl font-semibold">
+        <div><span class="text-yellow-500">93</span><br><span class="text-base">Напитки</span></div>
+        <div><span class="text-yellow-500">206</span><br><span class="text-base">Блюда</span></div>
+        <div><span class="text-yellow-500">71</span><br><span class="text-base">Закуски</span></div>
+      </div>
+    </div>
+    <div class="flex-1 flex gap-4 justify-center">
+      <img src="img/233] 1.png" alt="" class="w-1/2 rounded-lg shadow-lg">
+      <img src="img/Mask Group (3).png" alt="" class="w-1/2 rounded-lg shadow-lg">
+    </div>
+  </section>
+
+ 
+  <section class="bg-[url('img/fon.png')] bg-cover bg-center text-white text-center py-24 flex flex-col items-center gap-6">
+    <h2 class="text-3xl md:text-5xl text-yellow-400">Отпразднуйте в одном из лучших ресторанов</h2>
+    <p class="text-lg md:text-2xl font-semibold">Только в этом месяце бизнес-ланч от 250 ₽</p>
+    <button class="bg-yellow-600 hover:bg-yellow-700 px-8 py-3 rounded-lg transition">ЗАКАЗ СТОЛИКА</button>
+  </section>
+
+ 
+  <section class="max-w-[1200px] mx-auto py-20 px-6 text-center">
+    <h2 class="text-4xl md:text-5xl text-yellow-500 mb-10">Наши Блюда</h2>
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <img src="img/Mask Group (5).png" alt="" class="w-full md:w-1/2 rounded-lg shadow-lg">
+      <div class="flex-1 flex flex-col gap-6">
+        <div class="flex items-center gap-4">
+          <img src="img/hamburger-494706_1920 1.png" alt="" class="w-16">
+          <p>Гамбургер мини — <span class="text-yellow-600 font-semibold">22 000 сум</span></p>
+        </div>
+        <div class="flex items-center gap-4">
+          <img src="img/hamburger-494706_1920 1.png" alt="" class="w-16">
+          <p>Гамбургер классик — <span class="text-yellow-600 font-semibold">28 000 сум</span></p>
+        </div>
+        <div class="flex items-center gap-4">
+          <img src="img/hamburger-494706_1920 1.png" alt="" class="w-16">
+          <p>Гамбургер макси — <span class="text-yellow-600 font-semibold">33 000 сум</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="bg-[url('img/fonn.png')] bg-cover bg-center text-white py-24 px-6 text-center">
+    <h2 class="text-4xl md:text-5xl mb-12">Наше меню</h2>
+    <div class="grid gap-8 md:grid-cols-3 max-w-[1200px] mx-auto">
+      <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center gap-4">
+        <img src="img/Mask Group (6).png" alt="">
+        <h3 class="text-2xl font-semibold">Гамбургер макси</h3>
+        <p>Максимально толстый слой мяса</p>
+        <button class="bg-[#D67E34] text-white px-6 py-2 rounded-lg hover:bg-[#c46f2f] transition">ЗАКАЗАТЬ</button>
+      </div>
+      <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center gap-4">
+        <img src="img/Mask Group (6).png" alt="">
+        <h3 class="text-2xl font-semibold">Гамбургер мини</h3>
+        <p>Нежное мясо и свежие овощи</p>
+        <button class="bg-[#D67E34] text-white px-6 py-2 rounded-lg hover:bg-[#c46f2f] transition">ЗАКАЗАТЬ</button>
+      </div>
+      <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center gap-4">
+        <img src="img/Mask Group (6).png" alt="">
+        <h3 class="text-2xl font-semibold">Гамбургер классик</h3>
+        <p>Идеальный баланс вкуса</p>
+        <button class="bg-[#D67E34] text-white px-6 py-2 rounded-lg hover:bg-[#c46f2f] transition">ЗАКАЗАТЬ</button>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="bg-gray-100 py-20 text-center px-6">
+    <p class="max-w-[800px] mx-auto text-lg mb-6">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении! Отдельное спасибо за комплимент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам!</p>
+    <img src="img/beard-1845166_1920 1.png" alt="" class="w-24 mx-auto rounded-full">
+    <h3 class="text-xl font-semibold mt-4">Николай</h3>
+    <p class="text-gray-500">Посетитель</p>
+  </section>
+
+ 
+  <section class="max-w-[1200px] mx-auto py-20 px-6">
+    <h2 class="text-4xl md:text-5xl text-yellow-600 text-center mb-10">Галерея Блюд</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="flex flex-col gap-4">
+        <img src="img/table-71380_1280 1.png" alt="" class="rounded-lg shadow-md">
+        <div class="flex gap-4">
+          <img src="img/Mask Group (7).png" alt="" class="w-1/2 rounded-lg shadow-md">
+          <img src="img/Mask Group (8).png" alt="" class="w-1/2 rounded-lg shadow-md">
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="flex gap-4">
+          <img src="img/Mask Group (7).png" alt="" class="w-1/2 rounded-lg shadow-md">
+          <img src="img/Mask Group (8).png" alt="" class="w-1/2 rounded-lg shadow-md">
+        </div>
+        <img src="img/table-71380_1280 1.png" alt="" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="py-20 text-center px-6">
+    <h2 class="text-4xl md:text-5xl text-yellow-600 mb-10">Наши Повара</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <img src="img/Mask Group (9).png" alt="" class="w-64 rounded-lg shadow-md">
+      <img src="img/Mask Group (10).png" alt="" class="w-64 rounded-lg shadow-md">
+      <img src="img/image 4 (2).png" alt="" class="w-64 rounded-lg shadow-md">
+    </div>
+  </section>
+
+ 
+  <footer class="bg-[url('img/fonnn.png')] bg-cover bg-center h-96 flex items-center justify-center text-white text-center">
+    <p class="text-lg">© 2025 Наш ресторан. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
